@@ -1,0 +1,112 @@
+body {
+    background-color: #000000
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px
+}
+
+.contact-label {
+    color: #00a8e5;
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+    width: 51px
+}
+
+.container {
+    color: white;
+    height: 150px;
+    width: 300px
+}
+
+.inner-container {
+    align-items: center;
+    background-color: #000000;
+    border-radius: 4px;
+    display: flex;
+    height: 150px;
+    width: 300px
+}
+
+.logo-box 
+{
+	display: flex;
+    flex-direction: initial;
+}
+
+.link-tg 
+{
+	color: #ffffff;
+    font-family: 'VT323', monospace;
+	font-size: 10px;
+	display: flex;
+}
+
+.link-tg a {
+  color: #fffe62;
+  text-decoration: underline;
+      padding-left: 5px;
+}
+
+.by-hb {
+  margin-left: auto;
+}
+
+.link-tg a:hover {
+  color: #ffffff; 
+}
+
+.invisible-box {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    margin-left: 15px;
+    width: 270px
+}
+
+.token-label {
+    color: #ffffff;
+    font-family: 'Silkscreen', monospace;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#submit {
+    background-color: #ffffff00;
+    border: 1px solid;
+    color: #ffffff;
+    font-family: 'VT323', monospace;
+    font-size: 13px;
+    height: 50px;
+    margin-top: 10px;
+    transition: all .1s ease-in
+}
+
+#token {
+    color: #d5d6d7;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    font-family: 'VT323', monospace;
+    height: 50px;
+    margin-top: -13px;
+    outline: none;
+    padding-left: 10px
+}
+
+#submit:hover {
+   background-color: #ffffff;
+    cursor: pointer;
+    color: black;
+}

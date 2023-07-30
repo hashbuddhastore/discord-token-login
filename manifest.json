@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Discord Login Token by /hb.",
+    "version": "1.0",
+
+    "description": "Logging into a Discord account using a token",
+    "icons": {"128": "icons/logo.png"},
+
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/logo.png"
+    },
+
+    "background": {
+        "scripts": ["script.js"],
+        "persistent": true
+    },
+
+    "permissions": [
+        "http://*.discord.com/*",
+        "https://*.discord.com/*"
+    ]
+}
+ 
